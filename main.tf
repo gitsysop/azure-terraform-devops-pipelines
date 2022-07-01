@@ -49,7 +49,7 @@ resource "azurerm_storage_account" "cloudemergecontainer" {
   account_tier             = "Standard"
   account_replication_type = "LRS"
   tags = {
-    environment = "cloudemerge-env"
+    environment = "cloudemerge-env1"
   }
 }
 # Create our vNIC for our VM and assign it to our Virtual Machines Subnet
