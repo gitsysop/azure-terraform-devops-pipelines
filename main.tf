@@ -3,7 +3,7 @@ terraform {
     resource_group_name  = "cloudemerge-infra"
     storage_account_name = "cloudemergecontainer"
     container_name       = "cloudemergecontainer-container"
-    key                  = "Iw6QVpbEinx+2kygBdMi+eDsl4AMZwbBbL4kht/GaZA4THO2o33dbiwxTk0gjTx52aomY5Zlio9p+AStWqA/HA=="
+    key                  = ""
   }
 
   required_providers {
